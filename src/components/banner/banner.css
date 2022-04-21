@@ -1,0 +1,22 @@
+.banner {
+  padding: 0.3em;
+  margin-bottom: 1em;
+  background-color: #696969;
+  border-radius: 5px;
+  border-width: 2px;
+  border: solid white;
+}
+
+.banner-wrapper {
+  color: white;
+}
+
+.banner-wrapper h2 {
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 600px) {
+  #timezone {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.block-wrapper {
+  display: flex;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+  }
+  .block-wrapper {
+    display: block;
+  }
+}

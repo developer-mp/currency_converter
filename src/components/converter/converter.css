@@ -1,0 +1,54 @@
+.converter {
+  margin: 1em;
+}
+
+.converter-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 320px;
+  padding: 2em;
+  padding-top: 0.2em;
+  border-radius: 5px;
+  background: #ebecf0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  color: #191919;
+  margin-bottom: 0.2em;
+}
+
+.converter-form {
+  width: 100%;
+  margin-top: 0.6em;
+}
+
+.converter-button {
+  display: flex;
+  text-align: center;
+}
+
+.converter-button-item {
+  flex: 1;
+  margin-top: 1.2em;
+}
+
+button {
+  width: 70%;
+}

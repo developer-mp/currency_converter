@@ -1,0 +1,63 @@
+.quotes {
+  margin: 1em;
+}
+
+table span {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #003366;
+}
+
+table th {
+  border-color: white;
+}
+
+td {
+  color: white;
+}
+
+th {
+  color: #39ff14;
+}
+
+th,
+td {
+  padding: 0.6em 1em;
+  border-color: white;
+  border: solid 1px;
+}
+
+.quotes-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.quotes-button {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.quotes-button button {
+  width: 100px;
+  height: 30px;
+  background-color: #003366;
+  color: white;
+  border-color: white;
+  border: solid 1px;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 600px) {
+  #quotes-aud {
+    display: none;
+  }
+  #quotes-jpy {
+    display: none;
+  }
+}
