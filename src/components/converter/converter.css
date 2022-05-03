@@ -1,34 +1,44 @@
 .converter {
-  margin: 1em;
-}
-
-.converter-wrapper {
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: 320px;
-  padding: 2em;
-  padding-top: 0.2em;
-  border-radius: 5px;
+  width: clamp(250px, 250px, 300px);
+  padding: 1.5em;
+  border-radius: 0.5em;
   background: #ebecf0;
+  margin: 1em;
+  border: 0.1em solid lightgray;
 }
 
-h2 {
+.converter h1 {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 1em;
+  margin-top: 0.5em;
 }
 
-input,
+/* .converter h2 {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1em;
+} */
+
+.converter h3 {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 1em;
+  color: red;
+}
+
+.converter-form input,
 select {
   width: 100%;
   padding: 0.5em;
-  border: 1px solid lightgray;
-  border-radius: 4px;
+  border: 0.1em solid lightgray;
+  border-radius: 0.5em;
   box-sizing: border-box;
 }
 
-label {
+.converter-form label {
   display: block;
   color: #191919;
   margin-bottom: 0.2em;
@@ -37,6 +47,15 @@ label {
 .converter-form {
   width: 100%;
   margin-top: 0.6em;
+}
+
+.converter-arrows {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.converter-arrows:hover {
+  cursor: pointer;
 }
 
 .converter-button {
@@ -49,6 +68,10 @@ label {
   margin-top: 1.2em;
 }
 
-button {
-  width: 70%;
+.converter-button-item button {
+  width: 90%;
+}
+
+.converter-button-item button:hover {
+  cursor: pointer;
 }

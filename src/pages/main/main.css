@@ -1,7 +1,7 @@
-.main::after {
+/* .main::after {
   content: "";
   background-image: url("../../img/bg_img.jpg");
-  opacity: 0.3;
+  opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
@@ -9,4 +9,9 @@
   position: absolute;
   z-index: -1;
   background-repeat: no-repeat;
+} */
+
+.main {
+  height: 100vh;
+  background-color: #f7fbfd;
 }

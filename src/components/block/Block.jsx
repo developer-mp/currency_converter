@@ -6,8 +6,11 @@ const Block = () => {
   return (
     <div className="block">
       <div className="block-wrapper">
-        <Quotes />
-        <Converter />
+        <h1>Currency converter</h1>
+        <div className="block-tables">
+          <Converter />
+          <Quotes />
+        </div>
       </div>
     </div>
   );

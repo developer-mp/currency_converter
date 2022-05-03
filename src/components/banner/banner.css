@@ -1,22 +1,17 @@
 .banner {
-  padding: 0.3em;
-  margin-bottom: 1em;
+  height: 5vh;
+  padding: 1em;
   background-color: #696969;
-  border-radius: 5px;
-  border-width: 2px;
-  border: solid white;
 }
 
 .banner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
   color: white;
 }
 
-.banner-wrapper h2 {
-  text-align: center;
-}
-
-@media only screen and (max-device-width: 600px) {
-  #timezone {
-    display: none;
-  }
+#banner-item {
+  font-weight: 600;
 }

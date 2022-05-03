@@ -2,25 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 30%;
-  width: 100%;
 }
 
-.block-wrapper {
+.block-wrapper h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.block-tables {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-device-width: 600px) {
-  .block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 10%;
-    width: 100%;
-  }
-  .block-wrapper {
-    display: block;
+  .block-tables {
+    flex-direction: column;
   }
 }

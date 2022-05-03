@@ -15,12 +15,14 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-wrapper">
-        <h4>
-          <span>Your local time:</span>
+        <div className="banner-time">
+          <span id="banner-item">Your local time:</span>
           <span> {time} </span>
-          <span id="timezone"> / {timeZone()}</span>
-        </h4>
-        <h2>Currency Converter</h2>
+        </div>
+        <div className="banner-location">
+          <span id="banner-item">Your location:</span>
+          <span> {timeZone()}</span>
+        </div>
       </div>
     </div>
   );
